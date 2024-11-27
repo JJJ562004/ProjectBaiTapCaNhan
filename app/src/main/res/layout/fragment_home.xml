@@ -14,9 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="387dp" />
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="180dp"/>
+        android:layout_height="90dp"
+        android:src="@drawable/ic_launcher_foreground" />
 
 
 </LinearLayout>

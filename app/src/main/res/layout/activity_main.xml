@@ -70,4 +70,48 @@
         android:layout_height="wrap_content"
         android:text="OK" />
 
+    <LinearLayout
+        android:id="@+id/btn_grp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/btn_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="I want to buy"
+            android:textColor="#000" />
+
+        <!-- Sell Button -->
+        <RadioButton
+            android:id="@+id/btn_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="I want to sell"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btn_grp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-109dp"
+        android:text="Remember my choice" />
 </RelativeLayout>
